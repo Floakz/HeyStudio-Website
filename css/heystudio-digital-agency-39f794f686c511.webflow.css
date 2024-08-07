@@ -239,7 +239,7 @@ body {
 .black-sec-wrapper {
     padding-top: 0;
     padding-bottom: 200px;
-    background: url('https://i.postimg.cc/SN9rPTbH/bg-dot-grid.png'), rgb(0, 0, 0);
+    background: url('https://i.postimg.cc/Z58Z51Cr/bg-dot-grid.png'), rgb(0, 0, 0);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto;
@@ -558,6 +558,7 @@ body {
 
 .service-each-title {
     margin-top: 30px;
+    line-height: 40px;
     color: white;
     font-size: 2rem;
 }
@@ -626,9 +627,11 @@ body {
     display: block;
     color: white;
     max-width: 70%;
+    max-height: 300px;
     margin: auto;
     margin-top: 50px;
     font-size: 1rem;
+    overflow: hidden;
 }
 
 
@@ -651,7 +654,7 @@ body {
     margin-right: auto;
     font-family: Poppins, sans-serif;
     font-size: 1.5rem;
-    width: 300px;
+    max-width: 300px;
     color: rgb(221, 221, 221);
     font-weight: 400;
 }
@@ -680,10 +683,10 @@ body {
 
 
 .inner-footer {
-    padding: 50px 0 50px 0;
+    padding: 50px 20px 50px 20px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
 }
 
@@ -699,7 +702,7 @@ body {
     }
 
     .hero_sec {
-        height: 80vh;
+        height: 100vh;
     }
 
     .hero_wrapper {
@@ -719,6 +722,13 @@ body {
         line-height: 90px;
     }
 
+
+    .about-us-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .h4.white {
         text-align: center;
     }
@@ -734,7 +744,6 @@ body {
         background-repeat: repeat;
         background-size: auto;
         padding-bottom: 20px;
-        padding-right: 20px;
     }
 
     .div-block-2 {
@@ -758,14 +767,66 @@ body {
     }
 
     .div-block-3 {
-        width: 50%;
+        width: 90%;
+        text-align: center;
+        margin: auto;
     }
 
     .div-block-4 {
         flex-flow: column;
         align-items: center;
-        width: 40%;
+        width: 90%;
         display: flex;
+        text-align: center;
+        margin: auto;
+    }
+
+    .snips_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .snips_wrapper>div {
+        width: 45%;
+    }
+
+    .service-title-wrapper {
+        background-color: #000;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        top: 0;
+        height: auto;
+    }
+
+    .serviços {
+        margin-top: 0;
+    }
+
+    .serviços>div {
+        width: 90%;
+    }
+
+    .each-service {
+        padding-left: 0;
+    }
+
+    .step-cards-wrapper {
+        flex-direction: column;
+    }
+
+    .step-card {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .step-card:hover {
+        width: 100%;
+    }
+
+
+
+    .mobile-paragraph-left {
+        text-align: left;
     }
 
     .aquiencontras_section {
@@ -775,6 +836,14 @@ body {
     .service-item {
         height: auto;
     }
+
+    .serviços {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+
 
     .whatwebring-section {
         flex-flow: column;
@@ -887,9 +956,7 @@ body {
         display: none;
     }
 
-    .hero_sec {
-        height: 600px;
-    }
+
 
     .hero_wrapper {
         flex-flow: column;
@@ -904,6 +971,11 @@ body {
     .h4 {
         text-align: center;
     }
+
+    .serviços {
+        height: auto;
+    }
+
 
     .div-block {
         grid-column-gap: 38px;
@@ -931,8 +1003,9 @@ body {
     }
 
     .paragraph {
-        width: 80%;
+        width: 100%;
     }
+
 
     .div-block-3,
     .div-block-4 {
