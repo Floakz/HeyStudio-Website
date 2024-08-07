@@ -201,27 +201,24 @@ body {
 }
 
 .text_button_colorfill_lg {
-    color: #fff;
+    color: #000000;
     text-align: center;
     background-color: #ffffff;
-    background-image: url('../images/Vector.png');
-    background-position: 90%;
-    background-repeat: no-repeat;
-    background-size: 22px;
-    border: 1px solid #000;
+    border: 1px solid gray;
     border-radius: 32px;
     align-self: center;
-    padding: 15px 80px 15px 20px;
+    padding: 15px 30px 15px 30px;
     font-family: Poppins, sans-serif;
     font-weight: 500;
     line-height: 14px;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 .text_button_colorfill_lg:hover {
     color: #fff;
-    background-color: #474747;
-    border-color: #dbff00;
+    background-color: #000000;
+    border-color: gray
 }
 
 .clientelist-section {
@@ -240,8 +237,12 @@ body {
 }
 
 .black-sec-wrapper {
-    background-color: rgb(0, 0, 0);
     padding-top: 0;
+    padding-bottom: 200px;
+    background: url('https://i.postimg.cc/SN9rPTbH/bg-dot-grid.png'), rgb(0, 0, 0);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .about-us-section {
@@ -264,7 +265,7 @@ body {
     color: #7f7f7f;
     border-left: 10px #dbff00;
     margin-top: 10px;
-    
+
     padding-left: 0;
     font-family: Poppins, sans-serif;
     font-weight: 400;
@@ -284,7 +285,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    margin-bottom: 250px;
     display: flex;
 }
 
@@ -483,13 +483,7 @@ body {
     height: 140px;
 }
 
-.footer {
-    text-align: left;
-    justify-content: center;
-    margin-top: 160px;
-    margin-bottom: 160px;
-    display: flex;
-}
+
 
 .h2-_centered {
     color: #fff;
@@ -506,7 +500,8 @@ body {
 }
 
 
-.serviços{
+.serviços {
+    margin-top: 250px;
     font-family: Poppins, sans-serif;
     display: flex;
     width: 100%;
@@ -514,22 +509,22 @@ body {
     height: 2500px;
 }
 
-.serviços>div{
+.serviços>div {
     width: 50%;
 }
 
 
-.serviços .paragraph{
+.serviços .paragraph {
     font-size: 1rem;
 }
 
 
 
 
-.service-title-wrapper{
+.service-title-wrapper {
     display: flex;
     justify-content: center;
-    align-items:start;
+    align-items: start;
     /* border-right: 1px solid gray; */
     position: -webkit-sticky;
     position: sticky;
@@ -537,14 +532,14 @@ body {
     top: 100px;
 }
 
-.heading-services{
+.heading-services {
     color: white;
     font-size: 3rem;
     line-height: 55px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
-.each-service{
+.each-service {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -552,29 +547,30 @@ body {
     color: gray;
     font-size: 2rem;
     padding-left: 50px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
-.each-service>div{
+.each-service>div {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.service-each-title{
+.service-each-title {
     margin-top: 30px;
     color: white;
     font-size: 2rem;
 }
 
-.oqueoferecemos-wrapper{
+.oqueoferecemos-wrapper {
     margin-top: 150px;
     background-image: url('https://mrwallpaper.com/images/hd/simple-dark-backgrounds-gradient-8fc31cmg57iafkxt.jpg');
     border-radius: 25px;
     width: 100%;
     height: 200px;
 }
-.whatwebring-section-new{
+
+.whatwebring-section-new {
     margin-top: 180px;
     width: 100%;
     border-radius: 25px;
@@ -583,43 +579,73 @@ body {
 
 .h2-2 {
     color: #fff;
-    margin-bottom: 90px;
     font-family: Poppins, sans-serif;
     font-size: 40px;
     font-weight: 400;
     line-height: 150%;
 }
 
-.step-cards-wrapper{
+.step-cards-wrapper {
+    margin-top: 90px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     gap: 20px;
 }
 
-.step-card{
+.step-card {
     height: 500px;
     border-radius: 25px;
-    border: 1px solid gray;    
+    border: 1px solid gray;
     background-color: #181818;
     width: 30%;
     transition: all 0.5s ease-in-out;
 }
 
-.step-card:hover{
+.animation-incard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+.animation-incard-hidden {
+    display: none;
+}
+
+.whatwebring-p-hidden {
+    display: none;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+.whatwebring-p {
+    display: block;
+    color: white;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+
+.step-card:hover {
     background-color: #f1123f;
     width: 50%;
 }
 
-.step-card:nth-of-type(2):hover{
+.step-card:nth-of-type(2):hover {
     background-color: #07afa9;
 }
 
-.step-card:last-child:hover{
+.step-card:last-child:hover {
     background-color: #ae12f1;
 }
 
-.sub-titulo{
+.sub-titulo {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -627,7 +653,38 @@ body {
     font-size: 1.5rem;
     width: 300px;
     color: rgb(221, 221, 221);
-    font-weight: 200;
+    font-weight: 400;
+}
+
+.contact-home-section {
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+.contact-home-section>p {
+    margin: 50px 0 50px 0;
+    max-width: 800px;
+}
+
+#footer {
+    border-top: 1px solid gray;
+    width: 100vw;
+    background-color: #000000;
+    height: 150px;
+}
+
+#footer p {
+    color: white;
+}
+
+
+.inner-footer {
+    padding: 50px 0 50px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 
 @media screen and (max-width: 991px) {
