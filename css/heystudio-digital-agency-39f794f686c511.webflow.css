@@ -1089,11 +1089,19 @@ body {
     }
 
     .hero_sec {
-        height: 650px;
+        height: 100vh;
+    }
+
+    .text_hero_group {
+        text-align: left;
+        align-items: baseline;
     }
 
     .display {
+        font-size: 3rem;
+        line-height: 4rem;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     .div-block {
@@ -1116,6 +1124,32 @@ body {
         flex-flow: column;
     }
 
+
+    .snips_wrapper>div {
+        width: 100%;
+    }
+
+    .seperator-100vw-grayLine {
+        width: 90%;
+        height: 150px;
+        margin-bottom: 150px;
+        border-bottom: 1px solid gray;
+    }
+
+    .whatwebring-section-new {
+        margin-top: 0;
+    }
+
+    .service-title-wrapper {
+        padding-top: 25%;
+        padding-bottom: 0;
+    }
+
+    .heading-services {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
     .service-item_2 {
         height: 300px;
     }
@@ -1131,6 +1165,16 @@ body {
 
     .h2_v2 {
         font-size: 30px;
+    }
+
+    .inner-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #footer {
+        height: auto;
     }
 
     .footer {
