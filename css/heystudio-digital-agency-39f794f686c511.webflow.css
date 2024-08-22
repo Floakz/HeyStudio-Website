@@ -8,6 +8,11 @@ body {
     overflow-x: hidden;
 }
 
+.el-mobile-only {
+    display: none;
+}
+
+
 .w-layout-blockcontainer {
     /* max-width: 940px; */
     margin-left: auto;
@@ -1084,24 +1089,28 @@ body {
         padding-bottom: 15px;
     }
 
+    .el-mobile-only {
+        display: block;
+    }
+
     .menu_items_wrapper {
         display: none;
     }
 
     .hero_sec {
-        height: 100vh;
+        height: 80vh;
     }
 
     .text_hero_group {
-        text-align: left;
-        align-items: baseline;
+        text-align: center;
+        align-items: center;
     }
 
     .display {
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2.2rem;
+        line-height: 3rem;
         margin-bottom: 50px;
-        text-align: left;
+        text-align: center;
     }
 
     .div-block {
