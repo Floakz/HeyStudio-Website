@@ -1098,7 +1098,7 @@ body {
     }
 
     .hero_sec {
-        height: 80vh;
+        height: 70vh;
     }
 
     .text_hero_group {
@@ -1107,8 +1107,9 @@ body {
     }
 
     .display {
-        font-size: 2.2rem;
-        line-height: 3rem;
+
+        font-size: 2.5rem;
+        line-height: 2.8rem;
         margin-bottom: 50px;
         text-align: center;
     }
