@@ -1093,12 +1093,16 @@ body {
         display: block;
     }
 
+    .spacer-top {
+        margin-top: 50px;
+    }
+
     .menu_items_wrapper {
         display: none;
     }
 
     .hero_sec {
-        height: 70vh;
+        height: 80vh;
     }
 
     .text_hero_group {
