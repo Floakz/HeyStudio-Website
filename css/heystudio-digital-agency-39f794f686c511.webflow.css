@@ -208,13 +208,13 @@ body {
 .text_button_colorfill_lg {
     color: #000000;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #20ffb5;
     border: 1px solid gray;
     border-radius: 32px;
     align-self: center;
     padding: 15px 30px 15px 30px;
     font-family: Poppins, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 14px;
     text-decoration: none;
     transition: all 0.5s;
